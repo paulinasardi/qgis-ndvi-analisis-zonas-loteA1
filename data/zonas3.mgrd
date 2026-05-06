@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="9.11.1">
+    <TOOL library="imagery_classification" id="1" name="K-Means Clustering for Grids">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid System">
+        <CELLSIZE>10</CELLSIZE>
+        <XMIN>328875</XMIN>
+        <YMIN>7152695</YMIN>
+        <XMAX>329475</XMAX>
+        <YMAX>7154365</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="METHOD" name="Method" index="1">Hill-Climbing (Rubin 1967)</OPTION>
+      <OPTION type="integer" id="NCLUSTER" name="Clusters">3</OPTION>
+      <OPTION type="integer" id="MAXITER" name="Maximum Iterations">10</OPTION>
+      <OPTION type="boolean" id="NORMALISE" name="Normalise">false</OPTION>
+      <OPTION type="choice" id="INITIALIZE" name="Start Partition" index="0">random</OPTION>
+      <OPTION type="boolean" id="OLDVERSION" name="Old Version">false</OPTION>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+        <INPUT type="grid_list" id="GRIDS" name="Grids" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>C:/Users/Usuario/AppData/Local/Temp/processing_NbDGDx/56f015527b8d4f25969569e033698ce7/NDVIPromedio.sgrd</FILE>
+        </INPUT>
+      </INPUT_LIST>
+      <OUTPUT type="grid" id="CLUSTER" name="Clusters">Clusters</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <WKT2>PROJCRS["WGS 84 / UTM zone 20S",BASEGEODCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]]],CONVERSION["UTM zone 20S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-63,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing",north,ORDER[2],LENGTHUNIT["metre",1]],ID["EPSG",32720]]</WKT2>
+    <PROJ>+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs +type=crs</PROJ>
+    <CODE authority="EPSG">32720</CODE>
+  </PROJECTION>
+</SAGA_METADATA>

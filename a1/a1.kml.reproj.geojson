@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "a1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32720" } },
+"xy_coordinate_resolution": 1e-15,
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "a1", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 328863.013378937612288, 7153104.596062331460416, 0.0 ], [ 329186.77847648866009, 7152689.637460310012102, 0.0 ], [ 329484.720804224372841, 7154295.668174054473639, 0.0 ], [ 329092.487350121780764, 7154378.699901915155351, 0.0 ], [ 328863.013378937612288, 7153104.596062331460416, 0.0 ] ] ] } }
+]
+}
