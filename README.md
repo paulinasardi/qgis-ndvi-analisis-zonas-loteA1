@@ -12,7 +12,7 @@ El flujo cubre cálculo raster, poligonización, disolución y estadísticas zon
 
 ## Vista previa
 
-![Mapa NDVI Lote A1](outputs/LOTEA1_PAULINASARDI.png)
+![Mapa NDVI Lote A1](output/LOTEA1_PAULINASARDI.png)
 
 ## Resultados
 
