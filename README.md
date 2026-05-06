@@ -1,12 +1,24 @@
-# \# Análisis NDVI por Zonas — Lote A1
+# \# qgis-ndvi-analisis-zonas-loteA1
 
 # 
 
-# Ejercicio práctico de un curso de QGIS en agricultura de precisión.
+# !\[QGIS](https://img.shields.io/badge/QGIS-3.x-green?logo=qgis)
 
-# Delimitación de zonas de manejo basada en NDVI para un lote de cultivo (Lote A1),
+# !\[Sentinel-2](https://img.shields.io/badge/Sensor-Sentinel--2-blue)
 
-# usando conversión raster a vector y estadísticas zonales.
+# !\[Estado](https://img.shields.io/badge/Estado-Completo-brightgreen)
+
+# 
+
+# \## Descripción
+
+# 
+
+# Delimitación de zonas de manejo por NDVI para un lote de cultivo (Lote A1),
+
+# desarrollado como ejercicio de un curso de QGIS en agricultura de precisión.
+
+# El flujo cubre cálculo raster, poligonización, disolución y estadísticas zonales.
 
 # 
 
@@ -18,33 +30,35 @@
 
 # 
 
-# \## ¿Qué hace este proyecto?
-
-# 
-
-# \- Calcula NDVI a partir de imágenes satelitales sobre un lote de cultivo
-
-# \- Poligoniza el raster resultante en 3 zonas de manejo
-
-# \- Aplica Disolver + Estadísticas Zonales para obtener el NDVI medio por zona
-
-# \- Genera un mapa de diseño de impresión con tabla de atributos y escala
-
-# 
-
 # \## Resultados
 
 # 
 
-# | Zona | NDVI medio | Área (ha) | Vigor     |
+# | Zona | NDVI medio | Área (ha) | Vigor  |
 
-# |------|------------|-----------|-----------|
+# |------|------------|-----------|--------|
 
-# | 1    | 0,256      | 5,45      | Bajo      |
+# | 1    | 0,256      | 5,45      | Bajo   |
 
-# | 2    | 0,492      | 36,73     | Alto      |
+# | 2    | 0,492      | 36,73     | Alto   |
 
-# | 3    | 0,431      | 15,91     | Medio     |
+# | 3    | 0,431      | 15,91     | Medio  |
+
+# 
+
+# \## Flujo de trabajo
+
+# 
+
+# 1\. Cálculo de NDVI — Calculadora Raster
+
+# 2\. Poligonizar raster → capa vectorial
+
+# 3\. Disolver 56 fragmentos en 3 zonas limpias
+
+# 4\. Estadísticas Zonales — NDVI medio por zona
+
+# 5\. Exportación de mapa desde Diseñador de impresión
 
 # 
 
@@ -55,8 +69,6 @@
 # \- QGIS 3.x
 
 # \- Google Satellite (capa base XYZ)
-
-# \- Sin plugins adicionales requeridos
 
 # \- Herramientas clave: Calculadora Raster, Poligonizar, Disolver, Estadísticas Zonales
 
