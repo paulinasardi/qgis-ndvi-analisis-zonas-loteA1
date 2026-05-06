@@ -38,5 +38,5 @@ El flujo cubre cálculo raster, poligonización, disolución y estadísticas zon
 
 ## Autora
 
-**Paulina Sardi** — Técnica en SIG y Teledetección  
+**Paulina Sardi** —  
 [LinkedIn](https://www.linkedin.com/in/paulinasardi) · [GitHub](https://github.com/paulinasardi)
